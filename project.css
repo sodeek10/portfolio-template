@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.big-box1 {
+    width: 1280px;
+    height: 700px;
+    background-color: rgba(24, 24, 24, 1);
+}
+
+.box1 {
+    width: 1110px;
+    height: 70px;
+    gap: 80px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: rgba(27, 27, 27, 1);
+    margin-left: 85px;
+    padding-left: 110px;
+    padding-top: 24px;
+}
+
+.small-box1 {
+    gap: 50px;
+    width: 107.54px;
+    height: 17px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.01em;
+    color: rgba(156, 156, 156, 1);
+
+}
+
+.box2 {
+    width: 538px;
+    height: 247px;
+    gap: 30px;
+    margin-top: 90px;
+
+}
+
+.box-2 {
+    gap: 15px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.Name {
+    width: 426px;
+    height: 52px;
+    font-family: Raleway;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 51.66px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.Intro {
+    width: 492px;
+    height: 72px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 10px;
+
+}
+
+.button {
+    width: 307.89px;
+    height: 63px;
+    padding: 21px 64px 21px 64px;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(63, 142, 0, 1);
+    border: 1px solid rgba(98, 186, 27, 1);
+    margin-top: 20px;
+}
+
+.start {
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#man {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.man {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px thin rgba(24, 24, 24, 1);
+}
+
+.box3 {
+    width: 920px;
+    height: 60px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.worked {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box-3 {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+.click {
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid rgba(8, 8, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.box4 {
+    width: 897px;
+    height: 1242px;
+    margin-left: 208px;
+    margin-top: 80px;
+    margin-right: 175px;
+}
+
+.case {
+    width: 213px;
+    height: 40px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 39.92px;
+    color: rgba(8, 8, 8, 1);
+    margin-left: 350px;
+}
+
+.solve {
+    width: 570px;
+    height: 72px;
+    gap: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(156, 156, 156, 1);
+    margin-left: 150px;
+
+}
+
+.box-4 {
+    width: 892px;
+    height: 300px;
+    margin-top: 60px;
+    gap: 0px;
+
+}
+
+.fintech {
+    width: 72px;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    border-radius: 60px;
+    background-color: rgba(255, 246, 233, 1);
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 162, 23, 1);
+    margin-top: 27px;
+
+}
+
+.finwork {
+    width: 192px;
+    height: 28px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.18px;
+    color: rgba(8, 8, 8, 1);
+    margin-top: 20px;
+}
+
+.lor {
+    width: 421px;
+    height: 96px;
+    gap: 15px;
+    margin-top: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    color: rgba(156, 156, 156, 1);
+
+}
+
+.but {
+    width: 189.89px;
+    height: 38px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    background-color: rgba(255, 162, 23, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    cursor: pointer;
+    border-style: none;
+
+}
+
+.fin {
+    width: 445px;
+    height: 300px;
+}
+
+#book {
+    width: 445px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.box5 {
+    width: 897px;
+    height: 300px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+#mask {
+    width: 440px;
+    height: 300px;
+}
+
+.box-5 {
+    width: 445px;
+    height: 300px;
+    /* margin-left: 150px; */
+}
+
+.ed {
+    width: 64px;
+    height: 24px;
+    padding: 3px 10px 0px 10px;
+    gap: 10px;
+    border-radius: 60px;
+    background-color: rgba(208, 230, 255, 1);
+    margin-top: 27px;
+
+}
+
+.here {
+    width: 192px;
+    height: 28px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.18px;
+    color: rgba(8, 8, 8, 1);
+    margin-top: 20px;
+}
+
+.lore {
+    width: 421px;
+    height: 96px;
+    gap: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 10px;
+}
+
+.button-3 {
+    width: 189.89px;
+    height: 38px;
+    top: 245px;
+    left: 476px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 10, 255, 1);
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+    margin-top: 40px;
+}
+
+.box6 {
+    width: 892px;
+    height: 300px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.box-6 {
+    width: 445px;
+    height: 300px;
+}
+
+.pharma {
+    width: 64px;
+    height: 24px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    border-radius: 60px;
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(42, 176, 144, 1);
+    background-color: rgba(224, 255, 248, 1);
+    margin-top: 20px;
+}
+
+.pharwork {
+    width: 192px;
+    height: 28px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.18px;
+    columns: rgba(8, 8, 8, 1);
+    margin-top: 20px;
+}
+
+.lome {
+    width: 421px;
+    height: 96px;
+    gap: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 10px;
+}
+
+.button-4 {
+    background-color: rgba(42, 176, 144, 1);
+    width: 189.89px;
+    height: 38px;
+    top: 245px;
+    left: 476px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+    margin-top: 40px;
+}
+
+#mask4 {
+    width: 445px;
+    height: 300px;
+}
+
+.box7 {
+    width: 1280px;
+    height: 804px;
+    background-color: rgba(8, 8, 8, 1);
+}
+
+.testimonials {
+    width: 209px;
+    height: 40px;
+    padding-top: 80px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 39.92px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 550px;
+}
+
+.ipsum {
+    width: 570px;
+    height: 48px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+
+.relative {
+    position: relative;
+    width: 445px;
+    height: 212px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, white, transparent);
+    border-image-slice: 1;
+    border-radius: 4px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.quote {
+    color: white;
+    top: -40px;
+    left: 4px;
+    width: 32px;
+    height: 117px;
+    font-family: Raleway;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 117.4px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.box8 {
+    margin-top: 60px;
+    margin-left: 180px;
+    gap: 30px;
+}
+
+.box-8 {}
+
+.amet {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    text-align: left;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.cons {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    text-align: left;
+    color: rgba(156, 156, 156, 1);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#clara {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.client {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+}
+
+.clientel {
+    gap: 20px;
+}
+
+.box9 {
+    width: 1109.89px;
+    height: 676px;
+}
+
+.recent {
+    width: 211px;
+    height: 40px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 39.92px;
+    text-align: center;
+    color: rgba(8, 8, 8, 1);
+    margin-top: 80px;
+    margin-left: 535px;
+}
+
+.user {
+    width: 570px;
+    height: 72px;
+    margin-top: 10px;
+    margin-left: 440px;
+    gap: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    color: rgba(156, 156, 156, 1);
+}
+
+.box-9 {
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.here-5 {
+    width: 445px;
+    height: 494px;
+    margin-left: 180px;
+
+}
+
+.here5 {
+    width: 445px;
+    height: 494px;
+}
+
+#group5 {
+    width: 445px;
+    height: 300px;
+}
+
+.workhere {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.18px;
+    color: rgba(8, 8, 8, 1);
+    margin-top: 40px;
+}
+
+.laborte {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(156, 156, 156, 1);
+
+}
+
+.knowmore {
+    width: 139.89px;
+    height: 38px;
+    margin-top: 20px;
+    padding: 10px 24px 10px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: rgba(63, 142, 0, 1);
+    border: 1px solid rgba(98, 186, 27, 1);
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.3);
+    color: rgba(255, 255, 255, 1);
+}
+
+.box10 {
+    width: 1280px;
+    height: 672px;
+    background-color: rgba(8, 8, 8, 1);
+}
+
+.in {
+    width: 206px;
+    height: 40px;
+    padding-top: 81px;
+    margin-left: 537px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 39.92px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.do {
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    text-align: center;
+    color: rgba(156, 156, 156, 1);
+    width: 570px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 340px;
+    gap: 10px;
+
+}
+
+.email {
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 465px;
+    margin-top: 40px;
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    color: rgba(255, 255, 255, 1);
+    gap: 5px;
+}
+
+#mail {
+    width: 350px;
+    height: 40px;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    background-color: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(216, 216, 216, 1);
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.mobile {
+    width: 350px;
+    height: 61px;
+    margin-top: 20px;
+    margin-left: 465px;
+    gap: 5px;
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    color: rgba(255, 255, 255, 1)
+}
+
+#mobile {
+    width: 350px;
+    height: 40px;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    background-color: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(216, 216, 216, 1);
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.message {
+    width: 350px;
+    height: 141px;
+    margin-top: 20px;
+    margin-left: 465px;
+    gap: 5px;
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#message {
+    width: 350px;
+    height: 120px;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    background-color: rgba(248, 248, 248, 1);
+    border: 1px solid rgba(216, 216, 216, 1);
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.sub {
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 465px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: rgba(63, 142, 0, 1);
+    border: 1px solid rgba(98, 186, 27, 1);
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.made {
+    width: 1280px;
+    height: 70px;
+    background-color: rgba(27, 27, 27, 1);
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: rgba(156, 156, 156, 1);
+    padding-top: 26px;
+}
